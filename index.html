@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Simulare</title>
+    <link rel="stylesheet" type="text/css" href="static/css/main.css">
+</head>
+<body>
+
+	<div class="container">
+		<p class="subject">
+		Cerinta: <br>
+		Generarea variabilei log-normale LN(2; 3) utilizand
+		o variabila normala generata cu teorema limita centrala. Generarea variabilei binomiale prin doua metode cu parametrii cititi de la tastatura.
+		</p>
+
+		<div class="generator">
+			<div class="menu">
+				<div class="wrap-normal-lognormal">
+					<label>Numar variabile (min:1 max:30k)</label>
+					<input type="text" class="number-of-vars" id="numberOfVariables">
+					<button id="generate-normal">Genereaza Variabile Normale (0, 1) cu TLC</button>
+					<button id="generate-lognormal">Genereazaa Variabile Lognormale (2, 3)</button>
+				</div>
+
+				<div class="wrap-bernoulli">
+					<label for="valueForBernoulli">Prob (0-1)</label>
+					<input type="text" class="val-for-bernoulli" id="probForBernoulli">
+
+					<label for="numberOfBernoulliVars">Numar variabile Bernoulli (min:1 max:30k)</label>
+					<input type="text" class="number-of-vars" id="numberOfBernoulliVars">
+
+					<button id="generate-bernoulli">Genereaza variabile Bernoulli</button>
+				</div>
+
+				<div class="wrap-binomial">
+					<label for="probBinom">Prob (0-1)</label>
+					<input type="text" class="prob-binom" id="probBinom">
+
+					<label for="numberOfSamples">n probe (min:1 max:500)</label>
+					<input type="text" class="number-of-sampl" id="numberOfNSampl">
+
+					<label for="numberOfBinomVars">Numar variabile Binomiale (min:1 max:30k)</label>
+					<input type="text" class="number-of-vars" id="numberOfBinomVars">
+
+					<button id="generate-binom1">(Metoda v Normale) Genereaza variabile Binomiale</button>
+					<button id="generate-binom2">(Metoda v Bernoulli) Genereaza variabile Binomiale</button>
+				</div>
+				
+			</div>
+
+			<div id="graph">
+
+			</div>
+			
+			
+			<div class="wrap-results">
+				<div class="wrap-variables">
+					<p>Lista valori variabile generate</p>
+					<div id="values-list">
+					</div>
+				</div>
+				<div class="wrap-meanstd">
+					<p>Media si Dispersia</p>
+					<div class="wrap-meanstd-results">
+						<p>Media empirica: <span id="mean"></span></p>
+						<p>Dispersia empirica: <span id="standardDev"></span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="plotly/plotly-latest.min.js"></script>
+    <script type="text/javascript" src="static/js/main.js"></script>
+</body>
+</html>
