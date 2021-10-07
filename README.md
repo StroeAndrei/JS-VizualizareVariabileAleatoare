@@ -9,12 +9,12 @@ libraria plotly disponibila la adresa [Plotly](https://plotly.com/javascript/).<
 - binomiala prin doua metode
 <br/><br/>
 1. Normala<br/>
-![variabila aleatoare normala](https://github.com/StroeAndrei/JAVASCRIPT/blob/main/Projects/VizualizareVariabileAleatoare/screenshots/norm.PNG)<br/><br/>
+![variabila aleatoare normala](https://github.com/StroeAndrei/JS-VizualizareVariabileAleatoare/blob/master/screenshots/norm.PNG)<br/><br/>
 2. Lognormala<br/>
-![variabila aleatoare lognormala](https://github.com/StroeAndrei/JAVASCRIPT/blob/main/Projects/VizualizareVariabileAleatoare/screenshots/lognorm.PNG)<br/><br/>
+![variabila aleatoare lognormala](https://github.com/StroeAndrei/JS-VizualizareVariabileAleatoare/blob/master/screenshots/lognorm.PNG)<br/><br/>
 3. Bernoulli<br/>
-![variabila aleatoare bernoulli](https://github.com/StroeAndrei/JAVASCRIPT/blob/main/Projects/VizualizareVariabileAleatoare/screenshots/bern.PNG)<br/><br/>
+![variabila aleatoare bernoulli](https://github.com/StroeAndrei/JS-VizualizareVariabileAleatoare/blob/master/screenshots/bern.PNG)<br/><br/>
 4. Binomiala<br/>
-![variabila aleatoare binomiala](https://github.com/StroeAndrei/JAVASCRIPT/blob/main/Projects/VizualizareVariabileAleatoare/screenshots/binom.PNG)<br/><br/>
+![variabila aleatoare binomiala](https://github.com/StroeAndrei/JS-VizualizareVariabileAleatoare/blob/master/screenshots/binom.PNG)<br/><br/>
 
 
